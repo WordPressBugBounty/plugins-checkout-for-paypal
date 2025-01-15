@@ -1,10 +1,10 @@
 === Checkout for PayPal ===
 Contributors: naa986
 Donate link: https://noorsplugin.com/
-Tags: paypal, checkout, credit card, ecommerce, payments
+Tags: paypal, checkout, credit card, ecommerce, email
 Requires at least: 5.5
 Tested up to: 6.7
-Stable tag: 1.0.31
+Stable tag: 1.0.32
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -89,6 +89,15 @@ When this feature is enabled an email is sent to your chosen recipient(s) after 
 
 You can use various email tags in the body of an email to dynamically change its content. You can find the full list of available email tags in the [Checkout for PayPal](https://noorsplugin.com/checkout-for-paypal-wordpress-plugin/) plugin page.
 
+Can the email messages be sent over SMTP? Absolutely. The following SMTP plugins have been tested:
+
+* SMTP Mailer
+* Gmail SMTP
+* WP Mail SMTP
+* Post SMTP
+* FluentSMTP
+* Easy WP SMTP
+
 === How to Create a PayPal Smart Payment Button ===
 
 In order to create a [PayPal Smart Payment Button](https://noorsplugin.com/checkout-for-paypal-wordpress-plugin/) insert the shortcode like the following:
@@ -150,6 +159,9 @@ Yes.
 none
 
 == Changelog ==
+
+= 1.0.32 =
+* Some improvements in security reported by Wordfence.
 
 = 1.0.31 =
 * Added support for variable price description options.
